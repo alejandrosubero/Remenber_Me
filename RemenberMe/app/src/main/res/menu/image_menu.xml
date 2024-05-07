@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view2"
+    >
+    <item
+        android:id="@+id/encrypt_menu"
+        android:title="Enable Encrypt"
+        android:icon="@drawable/baseline_info_24"
+        />
+
+    <item android:id="@+id/block_menu"
+        android:title="Block"
+        android:icon="@drawable/baseline_share_24"
+        />
+
+    <item android:id="@+id/delete_menu"
+        android:title="Delete"
+        android:icon="@drawable/baseline_delete_forever_24"
+        />
+</menu>
+

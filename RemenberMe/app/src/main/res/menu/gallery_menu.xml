@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "list_menu_view"
+    >
+
+
+    <item android:id="@+id/show_block_gallery_menu"
+        android:title="Show Block Image"
+        android:icon="@drawable/baseline_share_24"
+        />
+
+    <item android:id="@+id/show_all_gallery_menu"
+        android:title="Show All Images"
+        android:icon="@drawable/baseline_delete_forever_24"
+        />
+</menu>
+

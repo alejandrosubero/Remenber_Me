@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/azul1"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#686767"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginLeft="8dp">
+
+                <TextView
+                    android:id="@+id/textViewAddTiTles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:lineSpacingExtra="8sp"
+                    android:text="Add an Image"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"
+
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="end">
+
+
+                <ImageView
+                    android:id="@+id/btn_ing_closeAdd"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_cancel_24"
+                    android:visibility="visible"
+                    android:elevation="10dp"
+                    android:translationZ="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textViewMessageAdd"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:text="Select an image"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_AddItem"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:stateListAnimator="@null"
+                android:textColor="@color/white"
+                android:elevation="10dp"
+                android:translationZ="10dp"
+                android:clickable="true"
+                android:backgroundTint="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/btn_AddMaterial"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:stateListAnimator="@null"
+                android:textColor="@color/white"
+                android:elevation="10dp"
+                android:translationZ="10dp"
+                android:clickable="true"
+                android:backgroundTint="@color/black"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</LinearLayout>

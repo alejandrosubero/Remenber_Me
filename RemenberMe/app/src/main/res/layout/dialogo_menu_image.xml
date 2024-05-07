@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/azul1"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#686767"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginLeft="8dp">
+
+                <TextView
+                    android:id="@+id/textViewAddTiTles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:lineSpacingExtra="8sp"
+                    android:text="Image Menu"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic"
+
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="end">
+
+                <ImageView
+                    android:id="@+id/btn_ing1_closeMenu"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_cancel_24"
+                    android:visibility="visible"
+                    android:elevation="10dp"
+                    android:translationZ="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/selected_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="fill_horizontal">
+
+            <ImageView
+                android:id="@+id/ico1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_grid_on_24"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Image Detail"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/selected_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="fill_horizontal">
+
+            <ImageView
+                android:id="@+id/ico2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_grid_on_24"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/item_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Share Image"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/selected_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="fill_horizontal">
+
+            <ImageView
+                android:id="@+id/ico4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_grid_on_24"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/item4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Block Image"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/selected_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="fill_horizontal">
+
+            <ImageView
+                android:id="@+id/ico3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_grid_on_24"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/item3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Delete Image"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/selected_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="fill_horizontal">
+
+            <ImageView
+                android:id="@+id/ico5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_grid_on_24"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/item5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/encript_this_image"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</LinearLayout>
